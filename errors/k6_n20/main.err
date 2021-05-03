@@ -1,0 +1,41 @@
+currently on ./input/simC_c1_k6_n20_u3_s3_del04.input: current rf rate is 0.4 and rf rate so far is 0.4
+currently on ./input/simC_c1_k6_n20_u3_s1_del02.input: current rf rate is 0.2 and rf rate so far is 0.30000000000000004
+currently on ./input/simC_c1_k6_n20_u1_s3_del04.input: current rf rate is 0.4 and rf rate so far is 0.3333333333333333
+currently on ./input/simC_c1_k6_n20_u2_s3_del04.input: current rf rate is 0.4 and rf rate so far is 0.35
+currently on ./input/simC_c1_k6_n20_u1_s2_del04.input: current rf rate is 0.6 and rf rate so far is 0.4
+currently on ./input/simC_c1_k6_n20_u2_s2_del02.input: current rf rate is 0.6 and rf rate so far is 0.43333333333333335
+currently on ./input/simC_c1_k6_n20_u2_s1_del02.input: current rf rate is 0.2 and rf rate so far is 0.4
+currently on ./input/simC_c1_k6_n20_u3_s1_del04.input: current rf rate is 0.8 and rf rate so far is 0.45000000000000007
+currently on ./input/simC_c1_k6_n20_u2_s2_del04.input: current rf rate is 0.6 and rf rate so far is 0.4666666666666667
+currently on ./input/simC_c1_k6_n20_u2_s1_del04.input: current rf rate is 0.2 and rf rate so far is 0.44000000000000006
+currently on ./input/simC_c1_k6_n20_u3_s3_del02.input: current rf rate is 0.4 and rf rate so far is 0.43636363636363645
+currently on ./input/simC_c1_k6_n20_u3_s2_del02.input: current rf rate is 0.6 and rf rate so far is 0.45
+currently on ./input/simC_c1_k6_n20_u1_s2_del02.input: current rf rate is 0.6 and rf rate so far is 0.46153846153846156
+currently on ./input/simC_c1_k6_n20_u1_s1_del02.input: current rf rate is 0.4 and rf rate so far is 0.4571428571428572
+currently on ./input/simC_c1_k6_n20_u1_s1_del04.input: current rf rate is 0.2 and rf rate so far is 0.44000000000000006
+currently on ./input/simC_c1_k6_n20_u3_s2_del04.input: current rf rate is 0.6 and rf rate so far is 0.45
+currently on ./input/simC_c1_k6_n20_u2_s3_del02.input: current rf rate is 0.4 and rf rate so far is 0.4470588235294118
+currently on ./input/simC_c1_k6_n20_u1_s3_del02.input: current rf rate is 0.4 and rf rate so far is 0.4444444444444444
+	Command being timed: "python ./src/main.py --input-cnp-dir ./input/ --output-prefix ./output/k6_n20/"
+	User time (seconds): 283.00
+	System time (seconds): 4.02
+	Percent of CPU this job got: 134%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:32.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 75520
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 198
+	Minor (reclaiming a frame) page faults: 571411
+	Voluntary context switches: 86365
+	Involuntary context switches: 60119
+	Swaps: 0
+	File system inputs: 61872
+	File system outputs: 2480
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,92 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 3 times.
+MIP Presolve eliminated 1401 rows and 801 columns.
+MIP Presolve modified 2605 coefficients.
+Aggregator did 134 substitutions.
+Reduced MIP has 1021 rows, 872 columns, and 3224 nonzeros.
+Reduced MIP has 233 binaries, 639 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (6.49 ticks)
+Found incumbent of value 47.000000 after 0.03 sec. (10.38 ticks)
+Probing fixed 30 vars, tightened 297 bounds.
+Probing time = 0.00 sec. (0.95 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 433 rows and 84 columns.
+MIP Presolve modified 116 coefficients.
+Aggregator did 28 substitutions.
+Reduced MIP has 560 rows, 760 columns, and 1806 nonzeros.
+Reduced MIP has 295 binaries, 465 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.32 ticks)
+Probing time = 0.00 sec. (0.15 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve modified 172 coefficients.
+Reduced MIP has 560 rows, 760 columns, and 1806 nonzeros.
+Reduced MIP has 295 binaries, 465 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.44 ticks)
+Probing time = 0.00 sec. (0.14 ticks)
+Clique table members: 1.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 24 threads.
+Root relaxation solution time = 0.00 sec. (2.78 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           47.0000        0.0000           100.00%
+      0     0        0.4000    44       47.0000        0.4000      217   99.15%
+      0     0        2.2308   149       47.0000      Cuts: 74      416   95.25%
+*     0+    0                           33.0000        2.2308            93.24%
+      0     0        3.8785   240       33.0000      Cuts: 89      607   88.25%
+      0     0        4.1304   234       33.0000      Cuts: 79      684   87.48%
+      0     0        5.1250   270       33.0000      Cuts: 58      752   84.47%
+      0     0        5.3333   238       33.0000      Cuts: 68      860   83.84%
+      0     0        6.0000   220       33.0000     Cuts: 116      941   81.82%
+      0     0        6.0000   229       33.0000      Cuts: 87     1005   81.82%
+*     0+    0                           18.0000        6.0000            66.67%
+      0     0        cutoff             18.0000       18.0000     1149    0.00%
+Elapsed time = 0.21 sec. (96.82 ticks, tree = 0.01 MB, solutions = 3)
+
+Implied bound cuts applied:  4
+Flow cuts applied:  1
+Mixed integer rounding cuts applied:  22
+Zero-half cuts applied:  106
+Lift and project cuts applied:  2
+Gomory fractional cuts applied:  4
+
+Root node processing (before b&c):
+  Real time             =    0.21 sec. (96.90 ticks)
+Parallel b&c, 24 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.21 sec. (96.90 ticks)
+
+Solution status = Optimal
+Solution LB = 18
+Solution UB = 18
+Runtime = 0.215255 seconds
+	Command being timed: "/home/min/git_repos/CS598MEBProject/CNT-ILP/build/cnt -s 2 ./output/k6_n30/simC_c1_k6_n30_u3_s2_del04.input-right.cnp"
+	User time (seconds): 1.61
+	System time (seconds): 0.04
+	Percent of CPU this job got: 710%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 64664
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13457
+	Voluntary context switches: 2082
+	Involuntary context switches: 146
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,7 @@
+Leaf 3 of T_1 corresponds to leaf 3 of T_2
+Leaf 4 of T_1 corresponds to leaf 5 of T_2
+Leaf 5 of T_1 corresponds to leaf 4 of T_2
+Leaf 6 of T_1 corresponds to leaf 6 of T_2
+delta(T_1) = 6
+delta(T_2) = 0
+RF = 0.666667

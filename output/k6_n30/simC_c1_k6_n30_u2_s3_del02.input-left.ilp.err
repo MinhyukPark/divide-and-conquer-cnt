@@ -1,0 +1,90 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 2 times.
+MIP Presolve eliminated 1325 rows and 766 columns.
+MIP Presolve modified 2588 coefficients.
+Aggregator did 145 substitutions.
+Reduced MIP has 1086 rows, 896 columns, and 3455 nonzeros.
+Reduced MIP has 236 binaries, 660 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (5.61 ticks)
+Found incumbent of value 58.000000 after 0.03 sec. (9.66 ticks)
+Probing fixed 30 vars, tightened 252 bounds.
+Probing time = 0.00 sec. (1.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 450 rows and 30 columns.
+MIP Presolve modified 57 coefficients.
+Reduced MIP has 636 rows, 866 columns, and 2075 nonzeros.
+Reduced MIP has 327 binaries, 539 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (2.41 ticks)
+Probing time = 0.00 sec. (0.17 ticks)
+Clique table members: 31.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 24 threads.
+Root relaxation solution time = 0.00 sec. (1.64 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           58.0000        0.0000           100.00%
+      0     0        0.0000    36       58.0000        0.0000      170  100.00%
+      0     0        1.1429    61       58.0000     Cuts: 178      409   98.03%
+*     0+    0                           16.0000        1.1429            92.86%
+      0     0        2.0500   264       16.0000      Cuts: 69      614   87.19%
+*     0+    0                           13.0000        2.0500            84.23%
+      0     0        2.0909   303       13.0000     Cuts: 112      734   83.92%
+      0     0        2.1053   269       13.0000      Cuts: 84      804   83.81%
+      0     0        2.1333   257       13.0000      Cuts: 54      843   83.59%
+      0     0        2.1538   244       13.0000      Cuts: 76      886   83.43%
+      0     0        2.1667   256       13.0000      Cuts: 79      934   83.33%
+      0     0        2.1667   242       13.0000      Cuts: 46      974   83.33%
+      0     0        2.1667   214       13.0000      Cuts: 62     1019   83.33%
+      0     0        2.1667   263       13.0000      Cuts: 84     1067   83.33%
+*     0+    0                            8.0000        2.1667            72.92%
+      0     0        cutoff              8.0000        8.0000     1124    0.00%
+Elapsed time = 0.23 sec. (98.50 ticks, tree = 0.01 MB, solutions = 4)
+
+Cover cuts applied:  12
+Implied bound cuts applied:  30
+Flow cuts applied:  2
+Mixed integer rounding cuts applied:  25
+Zero-half cuts applied:  128
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  15
+
+Root node processing (before b&c):
+  Real time             =    0.23 sec. (98.60 ticks)
+Parallel b&c, 24 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.23 sec. (98.60 ticks)
+
+Solution status = Optimal
+Solution LB = 8
+Solution UB = 8
+Runtime = 0.242064 seconds
+	Command being timed: "/home/min/git_repos/CS598MEBProject/CNT-ILP/build/cnt -s 2 ./output/k6_n30/simC_c1_k6_n30_u2_s3_del02.input-left.cnp"
+	User time (seconds): 2.51
+	System time (seconds): 0.04
+	Percent of CPU this job got: 910%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 67372
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14023
+	Voluntary context switches: 2728
+	Involuntary context switches: 323
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,87 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 2 times.
+MIP Presolve eliminated 721 rows and 438 columns.
+MIP Presolve modified 1329 coefficients.
+Aggregator did 85 substitutions.
+Reduced MIP has 550 rows, 459 columns, and 1759 nonzeros.
+Reduced MIP has 137 binaries, 322 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (2.93 ticks)
+Found incumbent of value 35.000000 after 0.01 sec. (5.08 ticks)
+Probing fixed 15 vars, tightened 90 bounds.
+Probing time = 0.00 sec. (0.41 ticks)
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 239 rows and 15 columns.
+MIP Presolve modified 36 coefficients.
+Aggregator did 1 substitutions.
+Reduced MIP has 310 rows, 443 columns, and 1041 nonzeros.
+Reduced MIP has 153 binaries, 290 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.38 ticks)
+Probing time = 0.00 sec. (0.11 ticks)
+Clique table members: 46.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 24 threads.
+Root relaxation solution time = 0.00 sec. (0.97 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           35.0000        0.0000           100.00%
+      0     0        0.0000    18       35.0000        0.0000      120  100.00%
+      0     0        5.1250    86       35.0000      Cuts: 68      231   85.36%
+      0     0        5.8615   118       35.0000      Cuts: 58      340   83.25%
+*     0+    0                           24.0000        5.8615            75.58%
+      0     0        5.8876   115       24.0000      Cuts: 65      374   75.47%
+      0     0        5.8876   112       24.0000      Cuts: 16      388   75.47%
+      0     0        5.8876   103       24.0000      Cuts: 22      402   75.47%
+      0     0        5.8904   108       24.0000      Cuts: 34      427   75.46%
+      0     0        5.8966   119       24.0000      Cuts: 28      455   75.43%
+      0     0        5.8966   144       24.0000      Cuts: 24      498   75.43%
+*     0+    0                           20.0000        5.8966            70.52%
+*     0+    0                           14.0000        5.8966            57.88%
+      0     0        cutoff             14.0000       14.0000      498    0.00%
+Elapsed time = 0.73 sec. (44.78 ticks, tree = 0.01 MB, solutions = 4)
+
+Implied bound cuts applied:  18
+Flow cuts applied:  2
+Mixed integer rounding cuts applied:  2
+Zero-half cuts applied:  27
+Gomory fractional cuts applied:  6
+
+Root node processing (before b&c):
+  Real time             =    0.74 sec. (44.83 ticks)
+Parallel b&c, 24 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.74 sec. (44.83 ticks)
+
+Solution status = Optimal
+Solution LB = 14
+Solution UB = 14
+Runtime = 0.740767 seconds
+	Command being timed: "/home/min/git_repos/CS598MEBProject/CNT-ILP/build/cnt -s 2 ./output/k6_n15/simC_c1_k6_n15_u3_s1_del02.input-right.cnp"
+	User time (seconds): 12.75
+	System time (seconds): 0.06
+	Percent of CPU this job got: 1692%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 56688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11338
+	Voluntary context switches: 3137
+	Involuntary context switches: 1740
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

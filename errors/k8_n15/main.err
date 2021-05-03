@@ -1,0 +1,41 @@
+currently on ./input/simC_c1_k8_n15_u3_s2_del04.input: current rf rate is 0.714286 and rf rate so far is 0.714286
+currently on ./input/simC_c1_k8_n15_u1_s1_del02.input: current rf rate is 0.428571 and rf rate so far is 0.5714285
+currently on ./input/simC_c1_k8_n15_u2_s3_del02.input: current rf rate is 0.571429 and rf rate so far is 0.5714286666666667
+currently on ./input/simC_c1_k8_n15_u1_s1_del04.input: current rf rate is 0.428571 and rf rate so far is 0.53571425
+currently on ./input/simC_c1_k8_n15_u2_s2_del04.input: current rf rate is 0.714286 and rf rate so far is 0.5714286
+currently on ./input/simC_c1_k8_n15_u3_s2_del02.input: current rf rate is 0.714286 and rf rate so far is 0.5952381666666666
+currently on ./input/simC_c1_k8_n15_u2_s2_del02.input: current rf rate is 0.714286 and rf rate so far is 0.6122449999999999
+currently on ./input/simC_c1_k8_n15_u3_s3_del02.input: skipping due to decompose 
+currently on ./input/simC_c1_k8_n15_u3_s1_del04.input: current rf rate is 0.571429 and rf rate so far is 0.607143
+currently on ./input/simC_c1_k8_n15_u1_s2_del02.input: current rf rate is 0.571429 and rf rate so far is 0.6031747777777778
+currently on ./input/simC_c1_k8_n15_u1_s2_del04.input: current rf rate is 0.571429 and rf rate so far is 0.6000002
+currently on ./input/simC_c1_k8_n15_u3_s1_del02.input: current rf rate is 0.428571 and rf rate so far is 0.5844157272727273
+currently on ./input/simC_c1_k8_n15_u2_s3_del04.input: current rf rate is 0.714286 and rf rate so far is 0.59523825
+currently on ./input/simC_c1_k8_n15_u2_s1_del02.input: current rf rate is 0.428571 and rf rate so far is 0.5824176923076922
+currently on ./input/simC_c1_k8_n15_u1_s3_del02.input: current rf rate is 0.571429 and rf rate so far is 0.5816327857142857
+currently on ./input/simC_c1_k8_n15_u1_s3_del04.input: current rf rate is 0.571429 and rf rate so far is 0.5809525333333333
+currently on ./input/simC_c1_k8_n15_u2_s1_del04.input: current rf rate is 0.857143 and rf rate so far is 0.5982144375
+currently on ./input/simC_c1_k8_n15_u3_s3_del04.input: skipping due to decompose 
+	Command being timed: "python ./src/main.py --input-cnp-dir ./input/ --output-prefix ./output/k8_n15/"
+	User time (seconds): 1274.83
+	System time (seconds): 5.00
+	Percent of CPU this job got: 149%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:14.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 101300
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 48
+	Minor (reclaiming a frame) page faults: 1224004
+	Voluntary context switches: 150463
+	Involuntary context switches: 698312
+	Swaps: 0
+	File system inputs: 12520
+	File system outputs: 2256
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

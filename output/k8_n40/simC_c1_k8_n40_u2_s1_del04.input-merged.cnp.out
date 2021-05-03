@@ -1,0 +1,11 @@
+Leaf 7 of T_1 corresponds to leaf 7 of T_2
+Leaf 8 of T_1 corresponds to leaf 9 of T_2
+Leaf 9 of T_1 corresponds to leaf 11 of T_2
+Leaf 10 of T_1 corresponds to leaf 13 of T_2
+Leaf 11 of T_1 corresponds to leaf 8 of T_2
+Leaf 12 of T_1 corresponds to leaf 10 of T_2
+Leaf 13 of T_1 corresponds to leaf 12 of T_2
+Leaf 14 of T_1 corresponds to leaf 14 of T_2
+delta(T_1) = 18
+delta(T_2) = 0
+RF = 0.571429

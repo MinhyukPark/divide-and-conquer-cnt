@@ -1,0 +1,7 @@
+#PARAMS
+1 #number of chromosomes
+2 #number of leaves
+20 #number of segments for each chromosome
+#PROFILES
+5 : 2 3 2 2 2 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2
+6 : 2 2 2 2 2 2 1 1 1 1 2 2 2 2 2 2 2 2 2 2
